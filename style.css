@@ -90,6 +90,7 @@ button {
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
+    margin-bottom: 70px;
 }
 
 .card {
@@ -98,8 +99,9 @@ button {
     align-items: center;
     text-align: center;
     gap: 30px;
+    color: #1F2937;
     max-width: 200px;
-    max-height: 150px;
+    max-height: auto;
     margin: 30px;
 }
 
@@ -107,5 +109,52 @@ button {
     width: 100%;
     height: 100%;
     border-radius: 15px;
+}
+
+.quote {
+    background: #E5E7EB;
+    color: #1F2937;
+    padding: 120px 180px;
+
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: left;
+}
+
+.quote-person {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 60px;
+}
+
+.action {
+    background: #3882F6;
+    padding: 30px 60px;
+    margin: 120px 180px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action-text {
+    color:#F9FAF8;
+    flex: 1;
+}
+.action-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    background: #1F2937;
+    color: #F9FAF8;
+    font-size: 16px;
+    text-align: center;
+    padding:40px 180px;
 }
 
